@@ -23,7 +23,7 @@ struct ContentView: View {
                     .font(Font.custom("KaushanScript-Regular", size: 60))
                     .foregroundColor(.white)
                     .padding()
-                
+               
                 NavigationLink(destination: LogIn()){
                    Segue(title: "LogIn")
                 }
@@ -40,10 +40,18 @@ struct Segue: View {
     var title : String
     var body: some View {
         Text(title)
-            .background(Color.white.opacity(0.5))
-            .foregroundColor(.white)
-            .padding()
+            .font(.title2)
+            .frame(width: 100, height:40)
+            .cornerRadius(15.0)
+            .background(Color("SegueColor").opacity(0.5))
+            .foregroundColor(Color.white)
+            .padding(.leading)
             .multilineTextAlignment(.leading)
+            .font(.title3)
+            .bold()
+            
+
+            
     }
 }
 struct ContentView_Previews: PreviewProvider {
