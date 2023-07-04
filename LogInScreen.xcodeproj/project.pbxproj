@@ -13,6 +13,7 @@
 		028EA3C82A54480F004480F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028EA3C72A54480F004480F4 /* Preview Assets.xcassets */; };
 		028EA3D02A544878004480F4 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 028EA3CF2A544878004480F4 /* KaushanScript-Regular.ttf */; };
 		028EA3D32A5449AF004480F4 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA3D22A5449AF004480F4 /* LogIn.swift */; };
+		028EA3D72A545AD8004480F4 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EA3D62A545AD8004480F4 /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		028EA3CF2A544878004480F4 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
 		028EA3D12A544899004480F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		028EA3D22A5449AF004480F4 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		028EA3D62A545AD8004480F4 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				028EA3C02A54480B004480F4 /* LogInScreenApp.swift */,
 				028EA3C22A54480B004480F4 /* ContentView.swift */,
 				028EA3D22A5449AF004480F4 /* LogIn.swift */,
+				028EA3D62A545AD8004480F4 /* SignUp.swift */,
 				028EA3C42A54480F004480F4 /* Assets.xcassets */,
 				028EA3C62A54480F004480F4 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028EA3C32A54480B004480F4 /* ContentView.swift in Sources */,
+				028EA3D72A545AD8004480F4 /* SignUp.swift in Sources */,
 				028EA3D32A5449AF004480F4 /* LogIn.swift in Sources */,
 				028EA3C12A54480B004480F4 /* LogInScreenApp.swift in Sources */,
 			);

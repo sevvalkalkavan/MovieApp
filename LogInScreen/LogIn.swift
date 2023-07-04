@@ -14,7 +14,9 @@ struct LogIn: View {
     var body: some View {
         ZStack {
             Image("Red Sunset")
+               .resizable()
                .edgesIgnoringSafeArea(.all)
+               
             VStack {
                 
                 Text("LOG IN")
@@ -42,14 +44,17 @@ struct LogIn: View {
                     .background(Color.pink.opacity(0.5))
                     .cornerRadius(15)
                 
+                
                 Button("Log in") {
                     
                 }
                 .padding()
                 .foregroundColor(.white)
-                .background(Color.white.opacity(0.1))
+                .background(LinearGradient(gradient: Gradient(colors: [Color.pink.opacity(0.5) , Color.blue.opacity(0.5)]), startPoint: .leading, endPoint: .trailing))
+                //.background(Color.white.opacity(0.1))
                 .cornerRadius(50)
                 .padding()
+                .clipShape(Capsule())
 
                     
             }
